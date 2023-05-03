@@ -67,6 +67,8 @@ def plot_graphs():
 
     plot3 = figure.add_subplot(224)
     plot3.plot(NP_years, NP_cases, '.-', color='darkblue')
+    plot3.set_xlabel('Year')
+    plot3.set_ylabel('Number of cases')
     plot3.title.set_text('New probation cases over time')
     plot3.axhline(y=NP_cases.max(), color='r', linestyle='--')
     plot3.text(pd.to_datetime("2014"), NP_cases.max()-70, 'Maximum cases: ' +
