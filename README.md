@@ -1,6 +1,8 @@
 # NuSpace internship assignment
 Name: Cervon Wong
 
+![A dashboard showing three graphs side by side](Thumbnail.png)
+
 ## Setting up
 Python version used: 3.10
 IDE used: VSCode
